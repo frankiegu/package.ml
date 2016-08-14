@@ -13,3 +13,10 @@ cd java/1.8
 
 docker build -t fluxcapacitor/utils-java-1.8 .
 ```
+
+### Kafka 0.10
+```
+cd kafka/0.10
+
+docker build -t fluxcapacitor/utils-kafka-0.10 .
+```
