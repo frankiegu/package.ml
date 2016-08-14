@@ -1,4 +1,4 @@
-FROM fluxcapacitor/ubuntu/14.04
+FROM fluxcapacitor/utils-ubuntu-14.04
 
 RUN \
  apt-get update \
