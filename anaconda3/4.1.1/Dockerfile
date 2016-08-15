@@ -6,10 +6,9 @@ RUN \
      wget \
      git
   
-  RUN \ 
-    wget --quiet http://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh -O ~/anaconda.sh \
-    && /bin/bash ~/anaconda.sh -b -p /opt/conda \
-    && rm ~/anaconda.sh
+RUN \ 
+  wget --quiet http://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh -O ~/anaconda.sh \
+  && /bin/bash ~/anaconda.sh -b -p /opt/conda \
+  && rm ~/anaconda.sh
 
 ENV PATH /opt/conda/bin:$PATH
-

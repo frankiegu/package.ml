@@ -20,3 +20,10 @@ cd kafka/0.10
 
 docker build -t fluxcapacitor/utils-kafka-0.10 .
 ```
+
+### Anaconda3 4.1.1
+```
+cd anaconda3/4.1.1
+
+docker build -t fluxcapacitor/utils-anaconda3:4.1.1 .
+```
