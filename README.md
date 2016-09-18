@@ -27,3 +27,10 @@ cd kubernetes/1.3.6
 
 docker build -t fluxcapacitor/package-kafka-1.3.6 .
 ```
+
+### Spark 2.0.1
+```
+cd spark/2.0.1
+
+docker build -t fluxcapacitor/package-spark-2.0.1 .
+```
