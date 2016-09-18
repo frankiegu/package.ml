@@ -20,3 +20,10 @@ cd kafka/0.10
 
 docker build -t fluxcapacitor/package-kafka-0.10 .
 ```
+
+### Kubernetes 1.3.6
+```
+cd kubernetes/1.3.6
+
+docker build -t fluxcapacitor/package-kafka-1.3.6 .
+```
