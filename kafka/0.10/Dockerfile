@@ -1,5 +1,5 @@
-FROM fluxcapacitor/utils-ubuntu-14.04
-FROM fluxcapacitor/utils-java-1.8
+FROM fluxcapacitor/package-ubuntu-14.04
+FROM fluxcapacitor/package-java-1.8
 
 # TODO:  Figure out why pip isn't being found from utils-ubunt-14.04 above ^
 RUN \
