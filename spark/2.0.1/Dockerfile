@@ -1,5 +1,5 @@
-FROM fluxcapacitor/utils-ubuntu-14.04
-FROM fluxcapacitor/utils-java-1.8
+FROM fluxcapacitor/package-ubuntu-14.04
+FROM fluxcapacitor/package-java-1.8
 
 ENV SPARK_VERSION=2.0.1-SNAPSHOT
 ENV SPARK_HOME=/root/spark-${SPARK_VERSION}-bin-fluxcapacitor
