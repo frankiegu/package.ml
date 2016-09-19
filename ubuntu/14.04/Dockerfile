@@ -2,6 +2,7 @@ FROM ubuntu:14.04
 
 RUN \
  apt-get update \
+ && apt-get upgrade \
  && apt-get install -y curl \
  && apt-get install -y wget \
  && apt-get install -y vim \
