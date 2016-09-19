@@ -11,3 +11,6 @@ RUN wget -q https://repo.continuum.io/miniconda/Miniconda3-4.0.5-Linux-x86_64.sh
     rm /tmp/miniconda.sh
 
 RUN conda install --yes -c conda-forge tensorflow
+RUN conda install --yes -c conda-forge matplotlib
+RUN conda install --yes -c conda-forge pandas
+RUN conda install --yes -c anaconda scikit-learn
