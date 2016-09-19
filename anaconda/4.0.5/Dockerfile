@@ -1,6 +1,6 @@
 FROM fluxcapacitor/package-ubuntu-14.04
 
-RUN apt-get -y update
+ENV PATH=/opt/conda/bin:$PATH
 
 # Install Python with conda
 RUN wget -q https://repo.continuum.io/miniconda/Miniconda3-4.0.5-Linux-x86_64.sh -O /tmp/miniconda.sh  && \
@@ -10,6 +10,4 @@ RUN wget -q https://repo.continuum.io/miniconda/Miniconda3-4.0.5-Linux-x86_64.sh
     /opt/conda/bin/pip install --upgrade pip && \
     rm /tmp/miniconda.sh
 
-ENV PATH=/opt/conda/bin:$PATH
-    
 RUN conda install --yes -c conda-forge tensorflow
