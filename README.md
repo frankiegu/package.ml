@@ -35,9 +35,9 @@ cd spark/2.0.1
 docker build -t fluxcapacitor/package-spark-2.0.1 .
 ```
 
-### Spark 1.6.1
+### Anaconda 4.0.5 (including tensorflow)
 ```
-cd spark/1.6.1
+cd anaconda/4.0.5
 
-docker build -t fluxcapacitor/package-spark-1.6.1 .
+docker build -t fluxcapacitor/package-anaconda-4.0.5 .
 ```
